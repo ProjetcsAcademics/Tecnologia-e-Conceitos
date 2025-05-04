@@ -1,0 +1,130 @@
+﻿@page "/redeeconexoes"
+
+<PageTitle>Rede e conexões</PageTitle>
+
+<div id="rede" style="display:flex; align-items:center; flex-direction:column;background-color: #f9f9f9; padding: 16px;">
+    <MudText Typo="Typo.h3" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Rede e conexões</MudText>
+	<MudImage Src="rede.png" Width="332" Height="250" Alt="Swedish Farm House" Elevation="25" Class="rounded-lg ma-4" />
+    <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">
+		É um conjunto de dispositivos interconectados que compartilham informações, recursos e serviços. Ela permite que computadores, servidores, dispositivos móveis e outros equipamentos se comuniquem entre si, seja dentro de um espaço restrito ou globalmente, como na internet.
+	</MudText>
+</div>
+
+
+
+
+<MudContainer Class="mt-16">
+    <MudText Typo="Typo.h3" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Tipos de Redes:</MudText>
+    
+    <MudGrid Class="mt-8">
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">
+                            Redes Locais (LAN - Local Area Network):
+
+                        </MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">
+                            Conectam dispositivos dentro de uma área limitada, como uma casa ou escritório.
+                        </MudText>
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        
+
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Conectam dispositivos dentro de uma área limitada, como uma casa ou escritório.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Exemplo: Rede de computadores em uma empresa.
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="lan.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">
+                            Redes Metropolitanas (MAN - Metropolitan Area Network):
+
+                        </MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">
+                            Abrangem áreas maiores, como cidades ou campus universitários.
+
+                        </MudText>
+
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Exemplo: Provedores de internet que conectam bairros de uma cidade.
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="man.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">
+                            Redes Pessoais (PAN - Personal Area Network):
+
+                        </MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">
+                            Conectam dispositivos pessoais, geralmente via Bluetooth ou Wi-Fi.
+
+                        </MudText>
+
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Exemplo: Um smartwatch sincronizado com um smartphone.
+
+
+                        </MudListItem>
+                         
+                         
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="pan.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+    </MudGrid>
+</MudContainer>

@@ -1,0 +1,134 @@
+﻿@page "/hardware"
+
+
+<PageTitle>Hardware</PageTitle>
+
+
+
+<div id="hardware" style="display:flex; align-items:center; flex-direction:column;">
+    <MudText Typo="Typo.h3" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Hardware</MudText>
+	<MudImage Src="hardware.png" Width="332" Height="250" Alt="Swedish Farm House" Elevation="25" Class="rounded-lg ma-4" />
+    <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">
+		Refere-se à parte física e tangível de um sistema computacional. Ele engloba todos os componentes eletrônicos, mecânicos e periféricos que compõem um dispositivo, como computadores, celulares, tablets e outros equipamentos eletrônicos.
+	</MudText>
+</div>
+
+
+<br/>
+
+
+<MudContainer Class="mt-16">
+    <MudText Typo="Typo.h3" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Componentes principais</MudText>
+    <MudText Align="Align.Center">Os três principais hardwares em um sistema computacional são aqueles responsáveis por permitir o funcionamento básico e o processamento das informações. Eles são:</MudText>
+    <MudGrid Class="mt-8">
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Processador (CPU - Unidade Central de Processamento)</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">O processador é o cérebro do computador, responsável por executar as instruções de programas e processar os dados. Ele realiza cálculos matemáticos, toma decisões lógicas e gerencia tarefas, sendo essencial para o funcionamento de qualquer dispositivo eletrônico.</MudText>
+                        
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Componentes importantes da CPU:
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Unidade de Controle (UC): Coordena as operações do computador.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Unidade Lógica e Aritmética (ULA): Realiza cálculos e operações lógicas.
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="processador.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Memória RAM (Memória de Acesso Aleatório)</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">A RAM é a memória temporária onde os dados e programas em execução são armazenados enquanto o dispositivo está ligado. Quanto mais memória RAM disponível, mais rápido e eficiente será o desempenho ao executar múltiplas tarefas.</MudText>
+
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Função principal:
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Armazenar informações necessárias para o processador trabalhar rapidamente.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Perde os dados quando o dispositivo é desligado (volátil).
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="ram.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Armazenamento (HD ou SSD)</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">É onde todos os dados, programas e o sistema operacional são armazenados permanentemente. Existem dois tipos principais:</MudText>
+
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            HD (Disco Rígido): Tradicional, mais lento, mas com maior capacidade por um custo menor.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            SSD (Unidade de Estado Sólido): Mais rápido e eficiente, embora seja mais caro.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Função principal:
+                            Preservar dados mesmo quando o dispositivo está desligado.
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="hd.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+    </MudGrid>
+</MudContainer>
+
+
+
+
+
+

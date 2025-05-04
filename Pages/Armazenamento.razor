@@ -1,0 +1,138 @@
+﻿@page "/armazenamento"
+
+
+<PageTitle>Armazenamento</PageTitle>
+
+<div id="hardware" style="display:flex; align-items:center; flex-direction:column;">
+    <MudText Typo="Typo.h3" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">Armazenamento de dados</MudText>
+	<MudImage Src="storage.png" Width="332" Height="250" Alt="Swedish Farm House" Elevation="25" Class="rounded-lg ma-4" />
+    <MudText Typo="Typo.body1" Style="text-align:justify; padding:16px;">
+		O armazenamento de dados refere-se à prática de salvar informações em dispositivos ou sistemas para que possam ser acessadas, gerenciadas e utilizadas posteriormente. É um dos pilares da tecnologia moderna, permitindo que organizações e indivíduos preservem dados essenciais.
+	</MudText>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MudContainer Class="mt-16">
+    <MudText Typo="Typo.h3" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">
+        Tipos de Armazenamento de Dados
+    </MudText>
+   
+    <MudGrid Class="mt-8">
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">
+                            Armazenamento Local
+
+                        </MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Os dados são armazenados em dispositivos físicos, como discos rígidos (HD), unidades de estado sólido (SSD), pen drives e cartões de memória.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Exemplo: Salvar documentos no seu computador ou fotos no cartão de memória do celular.
+                        </MudListItem>
+                        
+
+
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="hd2.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">
+                            Armazenamento em Nuvem
+
+                        </MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+
+
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Os dados são armazenados em servidores remotos acessíveis pela internet.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Exemplo: Serviços como Google Drive, OneDrive e Dropbox.
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="cloud.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Style="text-align:center; color:#3b82f6; margin-bottom: 16px;">
+                            Armazenamento em Rede
+
+                        </MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+
+
+                    </div>
+                    <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Utiliza servidores centralizados dentro de uma rede local ou corporativa.
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.LiveHelp">
+                            Exemplo: Um servidor de arquivos em uma empresa que permite o acesso compartilhado entre os funcionários.
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions Class="d-flex justify-center">
+
+                    <div class="d-flex justify-center">
+                        <MudImage ObjectFit="ObjectFit.Cover" Height="200" Width="400" Src="server.png" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+                    </div>
+
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+
+    </MudGrid>
+</MudContainer>
+
